@@ -1,0 +1,150 @@
+.app-sidebar{
+    width: 15%;
+    height: 100%;
+    min-height: 888px;
+    background-color: #F8F8F8;
+    border-radius: 35px 0px 0px 0px;
+}
+
+.sidebar-logo{
+  width: 100%;
+}
+.sidebar-buttons{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar-button-part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  overflow: hidden;
+  height: auto;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.sidebar-button-part:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #133B83;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.sidebar-button-part:hover:after{ transform: scaleX(1); }
+
+
+.image-transition {
+  opacity: 0.5;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-transition.active {
+  opacity: 1;
+}
+
+
+.recent-tasks{
+  width: 100%;
+}
+.recent-tasks-title-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.recent-tasks-title{
+  margin-left: 2px;
+  color: var(--dark, #373737);
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.weather-div{
+  width: 100%;
+}
+.sidebar-task-ul{
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar-task-li {
+
+  width: 95%;
+  min-height: 73px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  margin-bottom: 10px; 
+  overflow-wrap: break-word; 
+
+  border-radius: 7px;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar-time-group{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.sidebar-task-description{
+  width: 100%;
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;  
+  overflow-wrap: break-word;
+}
+
+.sidebar-task-date{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  background: var(--dark-green, #26685E);
+  height: 24px;
+  flex-shrink: 0;
+  padding: 5px;
+}
+
+.sidebar-task-time{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 11px;
+  background: var(--dark-green, #26685E);
+  height: 24px;
+  flex-shrink: 0;
+  padding: 5px;  
+}
+
+@media screen and (max-width: 1150px) {
+
+  .app-sidebar{
+    width: 85%;
+  }
+}

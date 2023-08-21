@@ -1,0 +1,14 @@
+.app-content{
+    width: 65%;
+    height: 100%;
+    min-height: 888px;
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .app-content{
+        width: 100%;
+
+    }
+  }

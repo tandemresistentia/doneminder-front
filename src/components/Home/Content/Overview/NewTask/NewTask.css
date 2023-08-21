@@ -1,0 +1,127 @@
+.app-overview{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.newstask-general-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.new-task-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    min-height: 135px;
+    height: 100%;
+    border-radius: 13px 13px 0px 0px;
+    background: var(--true-blue, linear-gradient(135deg, #97ABFF 0%, #123597 100%));
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.newtask-form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    min-height: 231px;
+    height: 100%;
+    background: var(--dark, #373737);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.form-input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.form-text-style{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+
+.form-text-area-style{
+    min-height: 153px;
+    width: 100%;
+    max-width: 400px;
+    resize: vertical; /* Allow vertical resizing */
+    /* Add other styles for the textarea */
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.form-data-style{
+    background-color: white;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button-create-task{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 127px;
+    height: 100%;
+    width: 90%;
+    background: var(--dark-green, #26685E);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1150px) {
+.newtask-form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    min-height: 231px;
+    height: 100%;
+    background: var(--dark, #373737);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-bottom: 30px;
+}
+
+}

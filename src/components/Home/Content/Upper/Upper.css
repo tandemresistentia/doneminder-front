@@ -1,0 +1,65 @@
+.app-upper{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.overview-upper{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+.overview-title-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+  .overview-title{
+    margin-left: 10px;
+    transform: translateY(-3px);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+
+    background: var(--true-blue, linear-gradient(135deg, #97ABFF 0%, #123597 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.account-button-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #373737;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    
+}
+  .account-button{
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .logout-button{
+    text-decoration: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+  }

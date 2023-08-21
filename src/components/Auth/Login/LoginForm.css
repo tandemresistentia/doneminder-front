@@ -1,0 +1,53 @@
+.app-login-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.app-login{
+    width: 90%;
+    height: 500px;
+    background: #373737;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.login-form{
+    width: 30%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .app-login{
+        width: 90%;
+        height: 100%;
+        background: #373737;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+    }
+    .login-form{
+        width: 70%;
+        height: 80%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+}
