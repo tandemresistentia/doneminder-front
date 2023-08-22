@@ -1,4 +1,3 @@
-Certainly, here's a README template for the **Doneminder Front** repository, which is a React-based frontend for the Doneminder project:
 
 ---
 
