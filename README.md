@@ -1,6 +1,4 @@
 
----
-
 # Doneminder Front
 
 ![Doneminder Logo](https://github.com/tandemresistentia/doneminder-front/blob/main/src/assets/Home/logo.png)
